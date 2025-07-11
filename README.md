@@ -16,17 +16,13 @@ A modern, responsive restaurant website built with HTML, CSS, and JavaScript.
 
 - `index.html` - Main website structure
 - `styles.css` - All styling and responsive design
-- `script.js` - Interactive functionality
 - `Images/` - Folder containing all website images
 
 ## How to Run
 
 1. Download all files to a folder
 2. Open `index.html` in your web browser
-3. Or use a local server:
-   - Python: `python -m http.server 8000`
-   - Node.js: `npx serve .`
-   - PHP: `php -S localhost:8000`
+
 
 ## Sections
 
@@ -34,7 +30,6 @@ A modern, responsive restaurant website built with HTML, CSS, and JavaScript.
 - Hero section with call-to-action
 - Services overview
 - About restaurant
-- Food gallery
 - Popular menu items
 - Table booking
 - Team members
@@ -45,8 +40,7 @@ A modern, responsive restaurant website built with HTML, CSS, and JavaScript.
 
 - HTML5
 - CSS3 (Grid, Flexbox, Animations)
-- Vanilla JavaScript
-- Google Fonts (Inter)
+
 
 ## Browser Support
 
