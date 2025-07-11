@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodFront - Enjoy Our Delicious Meal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div class="header__brand">
+                <img src="CoverPage/Logo.png" alt="FoodFront Logo" class="header__logo">
+            </div>
+            <ul class="header__menu">
+                <li><a href="#home" class="header__link header__link--active">HOME</a></li>
+                <li><a href="#contact" class="header__link">CONTACT</a></li>
+            </ul>
+            <button class="header__cta">Book A Table</button>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section id="home" class="hero hero--new">
+            <div class="hero__bg"></div>
+            <div class="hero__box">
+                <div class="hero__content">
+                    <h1 class="hero__title">Enjoy Our<br>Delicious Meal</h1>
+                    <p class="hero__description">
+                        Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                    </p>
+                    <button class="btn btn--primary">Book A Table</button>
+                </div>
+                <div class="hero__image">
+                    <img src="CoverPage/Imageg.png" alt="Grilled Food" class="hero__food-img" />
+                </div>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="container">
+                <div class="services__grid">
+                    <div class="services__card services__card--active">
+                        <div class="services__icon">
+                            <img src="SecoundPage/MasterChefs.png" alt="Master Chefs" class="services__icon-img">
+                        </div>
+                        <h4 class="services__title">Master Chefs</h4>
+                        <p class="services__description">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                    <div class="services__card">
+                        <div class="services__icon">
+                            <img src="SecoundPage/QualityFood.png" alt="Quality Food" class="services__icon-img">
+                        </div>
+                        <h4 class="services__title">Quality Food</h4>
+                        <p class="services__description">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                    <div class="services__card">
+                        <div class="services__icon">
+                            <img src="SecoundPage/OnlineOrder.png" alt="Online Order" class="services__icon-img">
+                        </div>
+                        <h4 class="services__title">Online Order</h4>
+                        <p class="services__description">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                    <div class="services__card">
+                        <div class="services__icon">
+                            <img src="SecoundPage/QualityServices.png" alt="24/7 Service" class="services__icon-img">
+                        </div>
+                        <h4 class="services__title">24/7 Service</h4>
+                        <p class="services__description">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about__content">
+                    <div class="about__images">
+                        <div class="about__image-grid">
+                            <div class="about__img about__img--1" style="background: url('About/about_topleft.jpg.png') center/cover no-repeat;"></div>
+                            <div class="about__img about__img--2" style="background: url('About/about_topright.jpg.png') center/cover no-repeat;"></div>
+                            <div class="about__img about__img--3" style="background: url('About/about_bottomleft.jpg.png') center/cover no-repeat;"></div>
+                            <div class="about__img about__img--4" style="background: url('About/about_bottomright.jpg.png') center/cover no-repeat;"></div>
+                        </div>
+                    </div>
+                    <div class="about__text">
+                        <div class="section-header">
+                            <span class="section-header__label">About Us</span>
+                            <h2 class="section-header__title">Welcome to <span class="section-header__highlight">🍴</span>Restaurant</h2>
+                        </div>
+                        <p class="about__paragraph">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        <p class="about__paragraph">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        <div class="about__stats">
+                            <div class="about__stat">
+                                <span class="about__stat-number">13</span>
+                                <span class="about__stat-label">Years of<br>EXPERIENCE</span>
+                            </div>
+                            <div class="about__stat">
+                                <span class="about__stat-number">50</span>
+                                <span class="about__stat-label">Popular<br>MASTER CHEFS</span>
+                            </div>
+                        </div>
+                        <button class="btn btn--primary">READ MORE</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <div class="section-header section-header--center">
+                    <span class="section-header__label">Food Menu</span>
+                    <h2 class="section-header__title">Most Popular Items</h2>
+                </div>
+                <div class="menu__tabs">
+                    <button class="menu__tab menu__tab--active">
+                        <img src="Food/PopularBreakfast.png" alt="Breakfast" class="menu__tab-icon">
+                        <span>Popular Breakfast</span>
+                    </button>
+                    <button class="menu__tab">
+                        <img src="Food/SpecialLaunch.png" alt="Launch" class="menu__tab-icon">
+                        <span>Special Launch</span>
+                    </button>
+                    <button class="menu__tab">
+                        <img src="Food/LovelyDinner.png" alt="Dinner" class="menu__tab-icon">
+                        <span>Lovely Dinner</span>
+                    </button>
+                </div>
+                <div class="menu__items">
+                    <div class="menu__column">
+                        <div class="menu__item">
+                            <img src="Food/menu-1.jpg.png" alt="Chicken Burger" class="menu__item-image">
+                            <div class="menu__item-content">
+                                <h4 class="menu__item-title">Chicken Burger</h4>
+                                <p class="menu__item-description">Ipsum ipsum clita erat amet dolor justo diam</p>
+                                <div class="menu__item-price">$115</div>
+                            </div>
+                        </div>
+                        <div class="menu__item">
+                            <img src="Food/menu-2.jpg.png" alt="Chicken Burger" class="menu__item-image">
+                            <div class="menu__item-content">
+                                <h4 class="menu__item-title">Chicken Burger</h4>
+                                <p class="menu__item-description">Ipsum ipsum clita erat amet dolor justo diam</p>
+                                <div class="menu__item-price">$115</div>
+                            </div>
+                        </div>
+                        <div class="menu__item">
+                            <img src="Food/menu-3.jpg.png" alt="Chicken Burger" class="menu__item-image">
+                            <div class="menu__item-content">
+                                <h4 class="menu__item-title">Chicken Burger</h4>
+                                <p class="menu__item-description">Ipsum ipsum clita erat amet dolor justo diam</p>
+                                <div class="menu__item-price">$115</div>
+                            </div>
+                        </div>
+                        <div class="menu__item">
+                            <img src="Food/menu-4.jpg.png" alt="Chicken Burger" class="menu__item-image">
+                            <div class="menu__item-content">
+                                <h4 class="menu__item-title">Chicken Burger</h4>
+                                <p class="menu__item-description">Ipsum ipsum clita erat amet dolor justo diam</p>
+                                <div class="menu__item-price">$115</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu__column">
+                        <div class="menu__item">
+                            <img src="Food/menu-5.jpg.png" alt="Chicken Burger" class="menu__item-image">
+                            <div class="menu__item-content">
+                                <h4 class="menu__item-title">Chicken Burger</h4>
+                                <p class="menu__item-description">Ipsum ipsum clita erat amet dolor justo diam</p>
+                                <div class="menu__item-price">$115</div>
+                            </div>
+                        </div>
+                        <div class="menu__item">
+                            <img src="Food/menu-6.jpg.png" alt="Chicken Burger" class="menu__item-image">
+                            <div class="menu__item-content">
+                                <h4 class="menu__item-title">Chicken Burger</h4>
+                                <p class="menu__item-description">Ipsum ipsum clita erat amet dolor justo diam</p>
+                                <div class="menu__item-price">$115</div>
+                            </div>
+                        </div>
+                        <div class="menu__item">
+                            <img src="Food/menu-7.jpg.png" alt="Chicken Burger" class="menu__item-image">
+                            <div class="menu__item-content">
+                                <h4 class="menu__item-title">Chicken Burger</h4>
+                                <p class="menu__item-description">Ipsum ipsum clita erat amet dolor justo diam</p>
+                                <div class="menu__item-price">$115</div>
+                            </div>
+                        </div>
+                        <div class="menu__item">
+                            <img src="Food/menu-8.jpg.png" alt="Chicken Burger" class="menu__item-image">
+                            <div class="menu__item-content">
+                                <h4 class="menu__item-title">Chicken Burger</h4>
+                                <p class="menu__item-description">Ipsum ipsum clita erat amet dolor justo diam</p>
+                                <div class="menu__item-price">$115</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="booking">
+            <div class="booking__content">
+                <div class="booking__image">
+                    <img src="Booking/Image.png" alt="Restaurant Booking" class="booking__bg-img">
+                </div>
+                <div class="booking__form-section">
+                    <div class="booking__form-content">
+                        <span class="section-header__label">Reservation</span>
+                        <h2 class="booking__title">Book A Table Online</h2>
+                        <form class="booking__form">
+                            <div class="booking__form-row">
+                                <input type="text" placeholder="Your Name" class="booking__input" required>
+                                <input type="email" placeholder="Your Email" class="booking__input" required>
+                            </div>
+                            <div class="booking__form-row">
+                                <input type="datetime-local" placeholder="Date & Time" class="booking__input" required>
+                                <select name="people" class="booking__select" required>
+                                    <option value="">No Of People</option>
+                                    <option value="1">People 1</option>
+                                    <option value="2">People 2</option>
+                                    <option value="3">People 3</option>
+                                    <option value="4">People 4</option>
+                                    <option value="5+">People 5+</option>
+                                </select>
+                            </div>
+                            <textarea placeholder="Special Request" rows="4" class="booking__textarea"></textarea>
+                            <button type="submit" class="btn btn--primary btn--booking">BOOK NOW</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team-section" class="team">
+            <div class="container">
+                <div class="section-header section-header--center">
+                    <span class="section-header__label">Team Members</span>
+                    <h2 class="section-header__title">Our Master Chefs</h2>
+                </div>
+                <div class="team__grid">
+                    <div class="team__member">
+                        <img src="Chefs/Chef1.png" alt="Chef 1" class="team__member-image">
+                        <h4 class="team__member-name">Full Name</h4>
+                        <p class="team__member-role">Designation</p>
+                        <div class="team__rating">
+                            <span class="team__star">⭐</span>
+                            <span class="team__star">⭐</span>
+                            <span class="team__star">⭐</span>
+                        </div>
+                    </div>
+                    <div class="team__member">
+                        <img src="Chefs/Chef2.png" alt="Chef 2" class="team__member-image">
+                        <h4 class="team__member-name">Full Name</h4>
+                        <p class="team__member-role">Designation</p>
+                        <div class="team__rating">
+                            <span class="team__star">⭐</span>
+                            <span class="team__star">⭐</span>
+                            <span class="team__star">⭐</span>
+                        </div>
+                    </div>
+                    <div class="team__member">
+                        <img src="Chefs/Chef3.png" alt="Chef 3" class="team__member-image">
+                        <h4 class="team__member-name">Full Name</h4>
+                        <p class="team__member-role">Designation</p>
+                        <div class="team__rating">
+                            <span class="team__star">⭐</span>
+                            <span class="team__star">⭐</span>
+                            <span class="team__star">⭐</span>
+                        </div>
+                    </div>
+                    <div class="team__member">
+                        <img src="Chefs/Chef4.png" alt="Chef 4" class="team__member-image">
+                        <h4 class="team__member-name">Full Name</h4>
+                        <p class="team__member-role">Designation</p>
+                        <div class="team__rating">
+                            <span class="team__star">⭐</span>
+                            <span class="team__star">⭐</span>
+                            <span class="team__star">⭐</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <div class="section-header section-header--center">
+                    <span class="section-header__label">Testimonial</span>
+                    <h2 class="section-header__title">Our Clients Say!!!</h2>
+                </div>
+                <div class="testimonials__grid">
+                    <div class="testimonials__card">
+                        <div class="testimonials__quote">"</div>
+                        <p class="testimonials__text">Dolor et eos labore, stet justo sed est sed.Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <div class="testimonials__client">
+                            <img src="Client/testimonial-4.jpg.png" alt="Client 1" class="testimonials__client-image">
+                            <div class="testimonials__client-details">
+                                <h5 class="testimonials__client-name">Client Name</h5>
+                                <span class="testimonials__client-role">Profession</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonials__card testimonials__card--active">
+                        <div class="testimonials__quote">"</div>
+                        <p class="testimonials__text">Dolor et eos labore, stet justo sed est sed.Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <div class="testimonials__client">
+                            <img src="Client/testimonial-4.jpg (1).png" alt="Client 2" class="testimonials__client-image">
+                            <div class="testimonials__client-details">
+                                <h5 class="testimonials__client-name">Client Name</h5>
+                                <span class="testimonials__client-role">Profession</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonials__card">
+                        <div class="testimonials__quote">"</div>
+                        <p class="testimonials__text">Dolor et eos labore, stet justo sed est sed.Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <div class="testimonials__client">
+                            <img src="Client/testimonial-4.jpg (2).png" alt="Client 3" class="testimonials__client-image">
+                            <div class="testimonials__client-details">
+                                <h5 class="testimonials__client-name">Client Name</h5>
+                                <span class="testimonials__client-role">Profession</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; Your Site Name All Right Reserved.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
